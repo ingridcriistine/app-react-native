@@ -28,7 +28,10 @@ const styles = StyleSheet.create({
     position: 'absolute'
   },
   img: {
-    width: 400,
-    height: 600
+    width: 300,
+    height: 300,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
   }
 });
