@@ -64,7 +64,7 @@ export default function Login() {
             </View>
         </View>
         <View>
-            <Link href={"/register"} style={styles.cadastrar}>Cadastrar novo usuário</Link>
+            <Link href={"/register"} style={styles.cadastrar}>Não possui uma conta? Cadastre-se aqui!</Link>
         </View>
       </SafeAreaView>
     </LinearGradient>
@@ -108,18 +108,19 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   button: {
-    backgroundColor: "#26084EFF",
+    backgroundColor: "#25074DFF",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     margin: 20,
     borderRadius: 5,
     width: 300,
-    paddingVertical: 6,
+    paddingVertical: 6
   },
   btnText: {
     fontFamily: "Poppins",
     color: "white",
+    fontSize: 13
   },
   label: {
     display: "flex",
