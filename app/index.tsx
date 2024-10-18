@@ -81,14 +81,15 @@ const styles = StyleSheet.create({
   },
   box: {
     display: "flex",
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     alignItems: "center",
     height: "100%",
   },
   boxLogin: {
     display: "flex",
     justifyContent: 'center',
-    alignItems: "center"
+    alignItems: "center",
+    marginBottom: 20
   },
   title: {
     color: 'white',
@@ -107,13 +108,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   button: {
-    backgroundColor: "#090909FF",
+    backgroundColor: "#26084EFF",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     margin: 20,
     borderRadius: 5,
-    width: 100,
+    width: 300,
     paddingVertical: 6,
   },
   btnText: {
@@ -135,13 +136,15 @@ const styles = StyleSheet.create({
   },
   cadastrar: {
     color: 'white',
-    fontSize: 12
+    fontSize: 12,
+    padding: 30
   },
   img: {
     width: 100,
     height: 100,
     display: "flex",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    marginTop: 30
   }
 });
