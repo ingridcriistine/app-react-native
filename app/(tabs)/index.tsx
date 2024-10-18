@@ -1,12 +1,12 @@
 import { Image, StyleSheet, Text } from 'react-native';
-import foto from "@/assets/images/foto.jpg";
+import foto from "../../assets/images/foto.jpg";
 
 export default function HomeScreen() {
   return (
-    <>
-      <Text>Turma mara</Text>
+    <div style={styles.box}>
+      <Text>Index das tabs</Text>
       <Image style={styles.img} source={foto} alt='imagem'/>
-    </>
+    </div>
   );
 }
 
@@ -15,6 +15,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8
+  },
+  
+  box: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column'
   },
   stepContainer: {
     gap: 8,
